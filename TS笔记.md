@@ -6,4 +6,4 @@ tec 文件名
 
 ------
 
-1.14 04fineshed
+1.14 04 finished
