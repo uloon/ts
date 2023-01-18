@@ -12,4 +12,4 @@ tsc 文件名 -w
 监视所有文件 tsc -w
 ------
 
-1.16 08 finished
+1.18 08 finished
