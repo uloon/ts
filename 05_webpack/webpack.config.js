@@ -1,5 +1,8 @@
-//引入一个包
+//引入包
 const path =require('path');
+const HTMLWebpackPlugin= require('html-webpack-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+
 
 //webpack中的所有的配置信息都应该写在module.exports中
 module.exports={
@@ -27,6 +30,13 @@ module.exports={
             }
         ]
     },
+
+    //配置webpack插件
+    plugins:[
+        new HtmlWebpackPlugin(options={
+            template:'./src/index.html'//根据模板形成网页
+        }),//自动生成html网页引入js文件
+    ],
 
     mode:"production"
 

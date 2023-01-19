@@ -12,7 +12,9 @@ tsc 文件名 -w
 监视所有文件 tsc -w
 
 # webpack
-
+npm i -D webpack
+npm i -D html-webpack-plugin
+npm i -D webpack-dev-server//自动更新
 # git
 error443：
 git config --global https.proxy
