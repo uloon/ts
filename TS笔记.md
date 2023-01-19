@@ -10,6 +10,9 @@ tsc 文件名 -w
 新建配置文件tsconfig.json
 编译所有文件 tsc
 监视所有文件 tsc -w
+
+# webpack
+
 ------
 
 1.18 08 finished

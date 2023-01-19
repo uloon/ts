@@ -1,0 +1,7 @@
+{
+    "compilerOptions": {
+        "target": "ES6",//指定编译后的es版本
+        "module": "ES6",//指定模块化规范
+        "strict": true,//严格模式
+    }
+}
